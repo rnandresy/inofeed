@@ -16,7 +16,6 @@ Zéro Blocage CORS :** Intégration d'un Proxy inverse avec Vite pour sécuriser
 Backend (Le Navire)
 Framework : Laravel 11 (API REST épurée)
 Base de données : MySQL (gérée via Laragon)
-Sécurité : Protection Mass Assignment configurée via Eloquent (`$fillable`).
 
 Frontend (La Voilure)
 Framework : React.js (via Vite)
