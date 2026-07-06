@@ -55,7 +55,7 @@ function App() {
             🍖 INOFEED : VOYAGE SUR GRAND LINE
           </h1>
           <p style={{ color: '#a1a1aa', fontStyle: 'italic', margin: 0 }}>
-            "Deviens le Roi des Développeurs !" — Équipage d'Inovatic
+            "Deviens le Roi des Développeurs !"
           </p>
         </header>
 
@@ -103,7 +103,7 @@ function App() {
                 {/* Actions de Pirate */}
                 <div style={{ display: 'flex', justifyContent: 'between', alignItems: 'center', borderTop: '1px solid #78350f', paddingTop: '12px' }}>
                   <button onClick={() => handleLike(post.id)} style={{ background: 'none', border: 'none', cursor: 'pointer', fontSize: '1rem', display: 'flex', alignItems: 'center', gap: '6px', color: '#e11d48', fontWeight: 'bold' }}>
-                    ❤️ Prime : {post.likes}Berry
+                    ❤️ Prime : {post.likes} Berry
                   </button>
                   
                   <button onClick={() => handleDelete(post.id)} style={{ background: 'none', border: 'none', cursor: 'pointer', fontSize: '0.9rem', color: '#71717a', marginLeft: 'auto', fontWeight: '600' }}>
